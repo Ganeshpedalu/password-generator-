@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generatar</title>
+    <link rel="stylesheet" href="ganesh.css">
+</head>
+
+<body>
+    <div class="pw-container">
+        <div class="pw-header">
+            <div class="pw">
+                <span id="pw">Password Will appear here</span>
+                <button id="copy">copy</button>
+            </div>
+        </div>
+        <div class="pw-body">
+            <div class="form-control">
+                <label for="length">Length of the password</label>
+                <input id="len" value="10" min="8" max="30" type="number">
+            </div>
+
+            <div class="form-control">
+                <lable for="upper">Contain Uppercase Letters</lable>
+                <input id="upper" type="checkbox" checked>
+            </div>
+
+            <div class="form-control">
+                <lable for="lower">Contain Lowercase Letters</lable>
+                <input id="lower" type="checkbox" checked>
+            </div>
+
+            <div class="form-control">
+                <lable for="number">Contain Numbers </lable>
+                <input id="number" type="checkbox" checked>
+            </div>
+
+            <div class="form-control">
+                <lable for="symbol">Contain Symbols</lable>
+                <input id="symbol" type="checkbox" checked>
+            </div>
+
+            <button class="generate" id="generate">Generate Password</button>
+
+
+
+        </div>
+    </div>
+</body>
+<script src="ganesh.js"></script>
+
+</html>
